@@ -1,8 +1,8 @@
 /**
  **************************************************
  *
- * @file        Generic-easyC-SOLDERED.h
- * @brief       Header file for sensor specific code.
+ * @file        ADS1015-SOLDERED.h
+ * @brief       Library for ADS1015-SOLDERED
  *
  *
  * @copyright GNU General Public License v3.0
@@ -13,18 +13,7 @@
 #define __SENSOR__
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.h"
+#include "libs/ADS1X15/ADS1X15.h"
 
-class Sensor : public EasyC
-{
-  public:
-    Sensor(int _pin);
-
-  protected:
-    void initializeNative();
-
-  private:
-    int pin;
-};
 
 #endif
