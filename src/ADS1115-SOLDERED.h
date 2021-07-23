@@ -9,8 +9,8 @@
  * @authors     @ soldered.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef __ADS1115__
+#define __ADS1115__
 
 #include "Arduino.h"
 #include "libs/ADS1X15/ADS1X15.h"
