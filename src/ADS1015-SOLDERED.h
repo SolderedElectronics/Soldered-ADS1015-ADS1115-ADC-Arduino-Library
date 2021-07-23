@@ -9,8 +9,8 @@
  * @authors     @ soldered.com
  ***************************************************/
 
-#ifndef __ADS1015__
-#define __ADS1015__
+#ifndef __ADS1015_SOLDERED__
+#define __ADS1015_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/ADS1X15/ADS1X15.h"
