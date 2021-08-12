@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_59',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['tovoltage_76',['toVoltage',['../class_a_d_s1_x15.html#a00bf12e240c4a92e9a9331feb35f59ca',1,'ADS1X15']]]
 ];

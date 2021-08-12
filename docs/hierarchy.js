@@ -7,6 +7,5 @@ var hierarchy =
       [ "ADS1113", "class_a_d_s1113.html", null ],
       [ "ADS1114", "class_a_d_s1114.html", null ],
       [ "ADS1115", "class_a_d_s1115.html", null ]
-    ] ],
-    [ "EasyC", "class_easy_c.html", null ]
+    ] ]
 ];

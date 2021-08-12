@@ -13,9 +13,5 @@ var files_dup =
       [ "ADS1113", "class_a_d_s1113.html", "class_a_d_s1113" ],
       [ "ADS1114", "class_a_d_s1114.html", "class_a_d_s1114" ],
       [ "ADS1115", "class_a_d_s1115.html", "class_a_d_s1115" ]
-    ] ],
-    [ "easyC.cpp", "easy_c_8cpp.html", null ],
-    [ "easyC.h", "easy_c_8h.html", [
-      [ "EasyC", "class_easy_c.html", "class_easy_c" ]
     ] ]
 ];
