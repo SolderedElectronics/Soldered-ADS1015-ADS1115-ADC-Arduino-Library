@@ -6,7 +6,7 @@
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)          |
 | :---------------------------------------------------------------------------------------------: |
 | [ADC 12-bit ADS1015 4-channel EasyC Board](https://www.solde.red/333002)                                 |
-| [ADC 12-bit ADS1015 4-channel EasyC Board](https://www.solde.red/333094)                                 |
+| [ADC 16-bit ADS1115 4-channel EasyC Board](https://www.solde.red/333094)                                 |
 
 Both ADC boards are supported in this library and compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
