@@ -376,7 +376,7 @@ void ADS1X15::setWireClock(uint32_t clockSpeed)
 uint32_t ADS1X15::getWireClock()
 {
 #if defined(__AVR__)
-#if defined(ARDUINO_AVR_ATTINYXY4)
+#if defined(ARDUINO_AVR_ATtiny804)
   uint8_t div;
   switch(MCLKCTRLB & 0b00011110)
     case(0b00000):
