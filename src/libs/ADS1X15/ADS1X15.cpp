@@ -379,7 +379,7 @@ uint32_t ADS1X15::getWireClock()
 #if defined(__AVR__)
 #if defined(ARDUINO_AVR_ATtiny804)
   uint8_t div;
-  switch(TWI0.MCLKCTRLB & 0b00011110)
+  switch(CLKCTRL.MCLKCTRLB & 0b00011110)
   {
     case 0b00000:
       div = 2;
