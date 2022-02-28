@@ -415,7 +415,7 @@ uint32_t ADS1X15::getWireClock()
       div = 48;
       break;
   }
-  return (F_CPU / div)/ (10 + 2 * TWI0.MBAUD + (F_CPU / div) * 0.0000001)
+  return (F_CPU / div)/ (10 + 2 * TWI0.MBAUD + (F_CPU / div) * 0.0000001);
 #else
   uint32_t speed = F_CPU / ((TWBR * 2) + 16);
   return speed;
