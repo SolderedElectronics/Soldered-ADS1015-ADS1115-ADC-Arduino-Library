@@ -376,7 +376,7 @@ void ADS1X15::setWireClock(uint32_t clockSpeed)
 uint32_t ADS1X15::getWireClock()
 {
 #if defined(__AVR__)
-#if defined(ARDUINO_ATTINYXY4)
+#if defined(ARDUINO_AVR_ATTINYXY4)
   uint8_t div;
   switch(MCLKCTRLB & 0b00011110)
     case(0b00000):
@@ -413,10 +413,10 @@ uint32_t ADS1X15::getWireClock()
       div = 48;
       break;
   return (F_CPU / div)/ (10 + 2 * MBAUD + (F_CPU / div) * 0.0000001)
-#endif
+#else
   uint32_t speed = F_CPU / ((TWBR * 2) + 16);
   return speed;
-
+#endif
 
 #elif defined(ESP32)
   return (uint32_t) _wire->getClock();
