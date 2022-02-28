@@ -23,6 +23,7 @@
 
 
 #include "ADS1X15.h"
+#include "Arduino.h"
 
 #define ADS1015_CONVERSION_DELAY    1
 #define ADS1115_CONVERSION_DELAY    8
@@ -378,41 +379,43 @@ uint32_t ADS1X15::getWireClock()
 #if defined(__AVR__)
 #if defined(ARDUINO_AVR_ATtiny804)
   uint8_t div;
-  switch(MCLKCTRLB & 0b00011110)
-    case(0b00000):
+  switch(TWI0.MCLKCTRLB & 0b00011110)
+  {
+    case 0b00000:
       div = 2;
       break;
-    case(0b00010):
+    case 0b00010:
       div = 4;
       break;
-    case(0b00100):
+    case 0b00100:
       div = 8;
       break;
-    case(0b00110):
+    case 0b00110:
       div = 16;
       break;
-    case(0b01000):
+    case 0b01000:
       div = 32;
       break;
-    case(0b01010):
+    case 0b01010:
       div = 64;
       break;
-    case(0b10000):
+    case 0b10000:
       div = 6;
       break;
-    case(0b10010):
+    case 0b10010:
       div = 10;
       break;
-    case(0b10100):
+    case 0b10100:
       div = 12;
       break;
-    case(0b10110):
+    case 0b10110:
       div = 24;
       break;
-    case(0b11000):
+    case 0b11000:
       div = 48;
       break;
-  return (F_CPU / div)/ (10 + 2 * MBAUD + (F_CPU / div) * 0.0000001)
+  }
+  return (F_CPU / div)/ (10 + 2 * TWI0.MBAUD + (F_CPU / div) * 0.0000001)
 #else
   uint32_t speed = F_CPU / ((TWBR * 2) + 16);
   return speed;
