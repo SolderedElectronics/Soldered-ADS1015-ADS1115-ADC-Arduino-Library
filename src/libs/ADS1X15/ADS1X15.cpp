@@ -376,8 +376,12 @@ void ADS1X15::setWireClock(uint32_t clockSpeed)
 uint32_t ADS1X15::getWireClock()
 {
 #if defined(__AVR__)
+#if defined(ARDUINO_ATTINYXY4)
+  return (F_CPU / 6)/ (10 + 2 * MBAUD + (F_CPU / 6) * 0.0000001)
+
   uint32_t speed = F_CPU / ((TWBR * 2) + 16);
   return speed;
+#endif
 
 #elif defined(ESP32)
   return (uint32_t) _wire->getClock();
@@ -386,6 +390,7 @@ uint32_t ADS1X15::getWireClock()
 // core_esp8266_si2c.cpp holds the data see => void Twi::setClock(
 // not supported.
 // return -1;
+
 
 #else  // best effort ...
   return _clockSpeed;
