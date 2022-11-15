@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "ADS1015 and ADS1115 Library by Soldered", "index.html", [
-    [ "ADS1015 And ADS1115 EasyC Board Arduino library", "index.html", null ],
+    [ "ADS1x15 easyC board Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
