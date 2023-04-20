@@ -6,8 +6,7 @@
 
 | ![ADC 12-bit ADS1015 4-channel with PGA breakout](https://github.com/SolderedElectronics/ADC-12-bit-ADS1015-4-channel-with-PGA-breakout-hardware-design/blob/main/OUTPUTS/V1.1.1/333094.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-| [ADC 12-bit ADS1015 4-channel with PGA breakout](https://www.solde.red/333094)
+| [ADC 12-bit ADS1015 4-channel with PGA breakout](https://www.solde.red/333094) |
 
 | ![ADC 16-bit ADS1115 4-channel with PGA breakout](https://github.com/SolderedElectronics/ADC-16-bit-ADS1115-4-channel-with-PGA-breakout-hardware-design/blob/main/OUTPUTS/V1.1.1/333095.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
