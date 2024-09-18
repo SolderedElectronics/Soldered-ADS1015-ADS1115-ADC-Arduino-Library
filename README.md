@@ -6,11 +6,11 @@
 
 | ![ADC 12-bit ADS1015 4-channel with PGA breakout](https://github.com/SolderedElectronics/ADC-12-bit-ADS1015-4-channel-with-PGA-breakout-hardware-design/blob/main/OUTPUTS/V1.1.1/333094.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [ADC 12-bit ADS1015 4-channel with PGA breakout](https://www.solde.red/333094) |
+| [ADC 12-bit ADS1015 4-channel with PGA breakout](https://solde.red/333094) |
 
 | ![ADC 16-bit ADS1115 4-channel with PGA breakout](https://github.com/SolderedElectronics/ADC-16-bit-ADS1115-4-channel-with-PGA-breakout-hardware-design/blob/main/OUTPUTS/V1.1.1/333095.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                        [ADC 16-bit ADS1115 4-channel with PGA breakout](https://www.solde.red/333095)                                                        |
+|                                                        [ADC 16-bit ADS1115 4-channel with PGA breakout](https://solde.red/333095)                                                        |
 
 ADC (Analog Digital Converter) is a device that reads analog signals (just like the analogRead () function in Arduino IDE) and converts them into a digital signal that can be read by a microcontroller. This breakout is based on the ADS1115 ADC, which reads values in 12-bit resolution, receives a maximum of 3.3V on its inputs and has a total of 4 channels (which can also be used as two differential). Works great with each microcontroller at 5V. It has 2 easyC connectors for easier connection on I2C communication.
 
